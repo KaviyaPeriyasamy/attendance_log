@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-21 22:18:07.654823",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ip",
+  "sync_now"
+ ],
+ "fields": [
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IP",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sync_now",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "Sync Now"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-21 23:06:06.426005",
+ "modified_by": "Administrator",
+ "module": "Attendance Log",
+ "name": "Device IP Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
